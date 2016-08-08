@@ -10,7 +10,7 @@ delay2 = 300; % Change to milliseconds
 % duration of the trial"
 % "As soon as you see the target location, press a key"
 
-% Create figure for expiriment
+% Create figure for experiment
 fig = figure; 
 
 % Draw Rectangle
