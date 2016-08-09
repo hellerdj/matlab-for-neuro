@@ -5,10 +5,10 @@ invalidTrialCnt = 0;
 delay1 = .1; % Change to milliseconds
 delay2 = .3; % Change to milliseconds
 
-% User instructions:
+% User input
 % "Fixate on the center of the screen. Do not break fixation for the
 % duration of the trial"
-% "As soon as you see the target location, press any key"
+% "As soon as you see the target location, press a key"
 
 % Create figure for experiment
 fig = figure;
@@ -48,6 +48,9 @@ pause ( delay1 )
 set(cue, 'visible', 'off');
 toc %End stop-watch
 set(target, 'visible', 'on');
+
+
+
 
 
 tic %Start stopwatch
